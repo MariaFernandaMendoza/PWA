@@ -1,0 +1,39 @@
+{
+  "name": "MiPWA - Mafer",
+  "short_name": "MiPWA",
+  "description": "Ejemplo de PWA con manifest, service worker y app shell.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#FFCC00",
+  "icons": [
+    {
+      "src": "/icons/flower_9591214.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/heart_11113988.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/heart_11113988.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/heart_11113988.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/heart_11113988.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

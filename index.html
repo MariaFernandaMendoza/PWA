@@ -1,13 +1,30 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <!-- Manifest de la PWA -->
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Favicon para la pestaña del navegador -->
+    <link rel="icon" href="public/icons/flower_9591214.png" type="image/png">
+
+    <!-- Colores e íconos para móviles -->
+    <meta name="theme-color" content="#FFCC00">
+    <link rel="apple-touch-icon" href="public/icons/heart_11113988.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Ya no usamos apple-mobile-web-app-capable porque está deprecated -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Configuración de caracteres y responsive -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My PWA</title>
   </head>
   <body>
+    <!-- Div donde React renderizará la app -->
     <div id="root"></div>
+
+    <!-- Script principal de la PWA -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
